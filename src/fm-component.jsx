@@ -96,6 +96,7 @@ function Card(props) {
           width="100%"
           background="rgba(50,50,50,1)"
           radius="10%"
+          will-change="transform"
         >
           {props.cardContent}
         </Frame>
