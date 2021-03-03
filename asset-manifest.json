@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/word-cards/static/css/main.a40fee5e.chunk.css",
-    "main.js": "/word-cards/static/js/main.6bfa3e41.chunk.js",
-    "main.js.map": "/word-cards/static/js/main.6bfa3e41.chunk.js.map",
+    "main.css": "/word-cards/static/css/main.72cfb31e.chunk.css",
+    "main.js": "/word-cards/static/js/main.0cd91253.chunk.js",
+    "main.js.map": "/word-cards/static/js/main.0cd91253.chunk.js.map",
     "runtime-main.js": "/word-cards/static/js/runtime-main.2c532f3d.js",
     "runtime-main.js.map": "/word-cards/static/js/runtime-main.2c532f3d.js.map",
     "static/js/2.9df769d0.chunk.js": "/word-cards/static/js/2.9df769d0.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.41648b54.chunk.js": "/word-cards/static/js/3.41648b54.chunk.js",
     "static/js/3.41648b54.chunk.js.map": "/word-cards/static/js/3.41648b54.chunk.js.map",
     "index.html": "/word-cards/index.html",
-    "static/css/main.a40fee5e.chunk.css.map": "/word-cards/static/css/main.a40fee5e.chunk.css.map",
+    "static/css/main.72cfb31e.chunk.css.map": "/word-cards/static/css/main.72cfb31e.chunk.css.map",
     "static/js/2.9df769d0.chunk.js.LICENSE.txt": "/word-cards/static/js/2.9df769d0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2c532f3d.js",
     "static/js/2.9df769d0.chunk.js",
-    "static/css/main.a40fee5e.chunk.css",
-    "static/js/main.6bfa3e41.chunk.js"
+    "static/css/main.72cfb31e.chunk.css",
+    "static/js/main.0cd91253.chunk.js"
   ]
 }
