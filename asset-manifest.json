@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/word-cards/static/css/main.72cfb31e.chunk.css",
-    "main.js": "/word-cards/static/js/main.0cd91253.chunk.js",
-    "main.js.map": "/word-cards/static/js/main.0cd91253.chunk.js.map",
-    "runtime-main.js": "/word-cards/static/js/runtime-main.2c532f3d.js",
-    "runtime-main.js.map": "/word-cards/static/js/runtime-main.2c532f3d.js.map",
-    "static/js/2.9df769d0.chunk.js": "/word-cards/static/js/2.9df769d0.chunk.js",
-    "static/js/2.9df769d0.chunk.js.map": "/word-cards/static/js/2.9df769d0.chunk.js.map",
-    "static/js/3.41648b54.chunk.js": "/word-cards/static/js/3.41648b54.chunk.js",
-    "static/js/3.41648b54.chunk.js.map": "/word-cards/static/js/3.41648b54.chunk.js.map",
+    "main.css": "/word-cards/static/css/main.9b49bae7.chunk.css",
+    "main.js": "/word-cards/static/js/main.be9d3dc2.chunk.js",
+    "main.js.map": "/word-cards/static/js/main.be9d3dc2.chunk.js.map",
+    "runtime-main.js": "/word-cards/static/js/runtime-main.7cc63b0a.js",
+    "runtime-main.js.map": "/word-cards/static/js/runtime-main.7cc63b0a.js.map",
+    "static/js/2.6d40521b.chunk.js": "/word-cards/static/js/2.6d40521b.chunk.js",
+    "static/js/2.6d40521b.chunk.js.map": "/word-cards/static/js/2.6d40521b.chunk.js.map",
+    "static/js/3.9e31e500.chunk.js": "/word-cards/static/js/3.9e31e500.chunk.js",
+    "static/js/3.9e31e500.chunk.js.map": "/word-cards/static/js/3.9e31e500.chunk.js.map",
     "index.html": "/word-cards/index.html",
-    "static/css/main.72cfb31e.chunk.css.map": "/word-cards/static/css/main.72cfb31e.chunk.css.map",
-    "static/js/2.9df769d0.chunk.js.LICENSE.txt": "/word-cards/static/js/2.9df769d0.chunk.js.LICENSE.txt"
+    "static/css/main.9b49bae7.chunk.css.map": "/word-cards/static/css/main.9b49bae7.chunk.css.map",
+    "static/js/2.6d40521b.chunk.js.LICENSE.txt": "/word-cards/static/js/2.6d40521b.chunk.js.LICENSE.txt",
+    "static/media/pinguino.33eec588.svg": "/word-cards/static/media/pinguino.33eec588.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c532f3d.js",
-    "static/js/2.9df769d0.chunk.js",
-    "static/css/main.72cfb31e.chunk.css",
-    "static/js/main.0cd91253.chunk.js"
+    "static/js/runtime-main.7cc63b0a.js",
+    "static/js/2.6d40521b.chunk.js",
+    "static/css/main.9b49bae7.chunk.css",
+    "static/js/main.be9d3dc2.chunk.js"
   ]
 }
