@@ -9,44 +9,62 @@ html, body {
 }
 
 .header{
-  min-height: 35px;
-  background: #000000;
-  color: rgb(245, 245, 245);
+  height: 30px;
+  width: 200px;
+  font-size: 12px;
+  background: #00000084;
+  color: rgb(0, 255, 0);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 4px;
+  border-radius: 0 0 10px 0px;
+  z-index: 3;
 }
 
 .grid-layout {
-  
   height: 100%;
   width: 100%;
-  min-width: 100px;
-  min-height: 200px;
   display: grid;
   grid-template-rows: 1fr 110px 1fr;
   grid-template-columns: 1fr 110px 1fr;
-  overflow: hidden;
-  background: rgba(132, 132, 132, 0.476);
+  background: #959595;
+  position: absolute;
+
 }
 
 
-.item {
-background: rgb(237, 237, 237);
+.item1 {
+background: rgb(226, 246, 255);
 display: flex;
 align-items: center;
 justify-content: center;
-color: #AAA;
+color: rgb(0, 0, 0);
 margin:1px;
 }
 
+.item2 {
+  background: rgb(226, 246, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  margin:1px;
+  }
+
 .footer {
-  height: auto;
-  background: rgb(0, 0, 0);
-  color: rgb(245, 245, 245);
-  text-align: center;
+  width: 200px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.559);
+  color: rgb(0, 255, 0);
+  justify-content: left;
+  align-items: center;
+  display: flex;
   font-size: 13px;
-  padding-bottom: 10px;
+  padding-left: 4px;
+  position: fixed;
+  bottom:0px;
+  border-radius: 0 10px 0 0;
 }
 
 .logo{

@@ -16,8 +16,10 @@ function Card(props) {
   function handleDragEnd(event, info) {
     //top left corner
     if (info.offset.x < -20 && info.offset.y < -20) {
-      props.setExitX(-props.getBoxGridWidth / 2);
-      props.setExitY(-props.getBoxGridHeight / 2);
+      // props.setExitX(-props.getBoxGridWidth / 2);
+      // props.setExitY(-props.getBoxGridHeight / 2);
+      props.setExitX(-150);
+      props.setExitY(-150);
       props.setIndex(props.index + 1);
       props.setCardContent();
       console.log("dragged to top left");
@@ -25,8 +27,10 @@ function Card(props) {
     }
     //top right corner
     if (info.offset.x > 20 && info.offset.y < -20) {
-      props.setExitX(props.getBoxGridWidth / 2);
-      props.setExitY(-props.getBoxGridHeight / 2);
+      // props.setExitX(props.getBoxGridWidth / 2);
+      // props.setExitY(-props.getBoxGridHeight / 2);
+      props.setExitX(150);
+      props.setExitY(-150);
       props.setIndex(props.index + 1);
       props.setCardContent();
       console.log("dragged to top right");
@@ -34,8 +38,10 @@ function Card(props) {
     }
     //bottom left corner
     if (info.offset.x < -20 && info.offset.y > 20) {
-      props.setExitX(-props.getBoxGridWidth / 2);
-      props.setExitY(props.getBoxGridHeight / 2);
+      // props.setExitX(-props.getBoxGridWidth / 2);
+      // props.setExitY(props.getBoxGridHeight / 2);
+      props.setExitX(-150);
+      props.setExitY(150);
       props.setIndex(props.index + 1);
       props.setCardContent();
       console.log("dragged to bottom left");
@@ -43,8 +49,10 @@ function Card(props) {
     }
     //bottom right corner
     if (info.offset.x > 20 && info.offset.y > 20) {
-      props.setExitX(props.getBoxGridWidth / 2);
-      props.setExitY(props.getBoxGridHeight / 2);
+      // props.setExitX(props.getBoxGridWidth / 2);
+      // props.setExitY(props.getBoxGridHeight / 2);
+      props.setExitX(150);
+      props.setExitY(150);
       props.setIndex(props.index + 1);
       props.setCardContent();
       console.log("dragged to bottom right");
@@ -94,7 +102,7 @@ function Card(props) {
           className="card"
           height="100%"
           width="100%"
-          background="rgba(50,50,50,1)"
+          background="#59d0ff"
           radius="10%"
         >
           {props.cardContent}
